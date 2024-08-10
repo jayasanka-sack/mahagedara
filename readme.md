@@ -3,7 +3,25 @@
 1. Install swi prolog
    
     https://www.swi-prolog.org/
-2. Create new virtual environment and activate it (optional)
+2. Run swi prolog in your terminal
+   ```
+   swipl
+   ```
+3. Load the knowledgebase
+   ```
+   [rajapaksa]
+   ```
+4. Run queries. ex:
+   ```
+   aiya(namal, yoshitha).
+   father(mahinda, X).
+   grand_parent(da, X).
+   ```
+   (keep pressing spacebar to load more results)
+
+
+## Running python code:
+1. Create new virtual environment and activate it (optional)
 ```
 python3 -m venv env
 source env/bin/activate
